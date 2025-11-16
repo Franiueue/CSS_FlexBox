@@ -1,0 +1,197 @@
+.container{
+    
+    width: 300px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    align-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.box1{
+    display: flex;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box6{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.box7{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container.box8{
+    height: 300px;
+}
+.box8{
+    display: flex;
+    flex-flow: column wrap;
+}
+.container.box9{
+    height: 300px;
+}
+.box9{
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+
+.box10{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box11{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box12{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box13{
+    display: flex;
+    justify-content: center;
+}
+
+.box14{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box15{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box16{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container.box17{
+    height: 150px;
+}
+.wys1{
+    height: 120px;
+}
+.wys2{
+    height: 50px;
+}
+.wys3{
+    height: 13px;
+}
+.wys4{
+    height: 100px;
+}
+.box17{
+    display: flex;
+    align-items: flex-start;
+}
+
+.box18{
+    display: flex;
+    align-items: flex-end;
+}
+
+.box19{
+    display: flex;
+    align-items: center;
+}
+
+.box20{
+    display: flex;
+    align-items: baseline;
+}
+
+.box21{
+    display: flex;
+    align-items: stretch;
+}
+.container.box22{
+    height: 200px;
+}
+.box22{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container.box23{
+    height: 200px;
+}
+.box23{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.container.box24{
+    height: 200px;
+}
+.box24{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container.box25{
+    height: 200px;
+}
+.box25{
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.container.box26{
+    height: 200px;
+}
+.box26{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container.box27{
+    height: 200px;
+}
+.box27{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+body{
+    display: flex;
+    gap: 150px;
+}
