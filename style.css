@@ -1,14 +1,17 @@
+/*STYLIZACJA*/
 body{
-    background-color: rgb(119, 119, 119);
+    background-color: black;
+    color: white;
+    display: flex;
 }
-
 
 .container{
     
     width: 300px;
-    background-color:cadetblue;
+    background-color: gray;
     margin: 10px;
     padding: 10px;
+    
 }
 .box{
     width: 50px;
@@ -19,8 +22,26 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     margin: 5px;
+    color: black;
+}
+.flexzew{
+    display: flex;
+    gap: 100px;
+    border: 1px white solid;
+    border-radius: 10px;
 }
 
+.flexwew{
+    display: flex;
+    gap: 100px;
+    border: 1px white solid;
+    border-radius: 10px;
+    height: 700px;
+}
+/*KONIEC STYLIZACJI*/
+
+
+/*WLASCIWOSCI*/
 .box1{
     display: flex;
 }
@@ -200,3 +221,101 @@ body{
     display: flex;
     gap: 150px;
 }
+
+.boxz1{
+    display: flex;
+}
+.one1{
+    order: 2;
+}
+.two1{
+    order: 1;
+}
+.three1{
+    order: 4;
+}
+.four1{
+    order: 3;
+}
+
+.boxz2{
+    display: flex;
+}
+.one2{
+    flex-grow: 2;
+}
+
+.boxz3{
+    display: flex;
+    gap: 10px;
+}
+.one3{
+    flex-basis: 500px;
+}
+.two3{
+    flex-shrink: 3;
+}
+
+.container.boxz4{
+    height: 100px;
+}
+.boxz4{
+    display: flex;
+    align-items: center;
+}
+.one4{
+    align-self: flex-start;
+}
+
+.container.box5{
+    height: 100px;
+}
+.boxz5{
+    display: flex;
+    align-items: center;
+}
+.one5{
+    align-self: flex-end;
+}
+
+.container.box6{
+    height: 100px;
+}
+.boxz6{
+    display: flex;
+    align-items: center;
+}
+.one6{
+    align-self: baseline;
+}
+.three6{
+    align-self: baseline;
+}
+
+.container.box7{
+    height: 100px;
+}
+.boxz7{
+    display: flex;
+}
+.box.one7{
+    align-self: stretch;
+    height: auto;
+}
+.two7{
+    align-self: flex-start;
+}
+.three7{
+    align-self: center;
+}
+.four7{
+    align-self: flex-end;
+}
+
+.boxz8{
+    display: flex;
+}
+.one8{
+    flex-basis: 500px;
+}
+
