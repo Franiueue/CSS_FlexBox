@@ -267,7 +267,7 @@ body{
     align-self: flex-start;
 }
 
-.container.box5{
+.container.boxz5{
     height: 100px;
 }
 .boxz5{
@@ -278,7 +278,7 @@ body{
     align-self: flex-end;
 }
 
-.container.box6{
+.container.boxz6{
     height: 100px;
 }
 .boxz6{
@@ -292,7 +292,7 @@ body{
     align-self: baseline;
 }
 
-.container.box7{
+.container.boxz7{
     height: 100px;
 }
 .boxz7{
@@ -318,4 +318,5 @@ body{
 .one8{
     flex-basis: 500px;
 }
+
 
